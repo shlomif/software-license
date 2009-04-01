@@ -12,9 +12,9 @@ requires('Data::Section'       => '0.000'); # minimum unknown
 requires('Sub::Install'        => '0.000'); # minimum unknown
 requires('Text::Template'      => '0.000'); # minimum unknown
 
-extra_tests;
+extra_tests();
 
 repository('http://github.com/rjbs/software-license');
-auto_manifest;
+auto_manifest();
 
 WriteAll();
