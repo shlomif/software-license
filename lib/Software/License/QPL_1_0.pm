@@ -11,6 +11,7 @@ Software::License::QPL_1_0 - The Q Public License, Version 1.0
 
 sub name { 'The Q Public License, Version 1.0' }
 sub url  { 'http://trolltech.com/products/qt/licenses/licensing/qpl' }
+sub meta_name { 'qpl' }
 
 1;
 __DATA__

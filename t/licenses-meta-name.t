@@ -1,11 +1,12 @@
 #!perl
 use strict;
 use warnings;
-use Test::More tests => 3;
+use Test::More tests => 4;
 
 use Software::License::AGPL_3;
 use Software::License::Artistic_2_0;
 use Software::License::FreeBSD;
+use Software::License::QPL_1_0;
 
 # TEST
 is (scalar(Software::License::AGPL_3->meta_name()),
@@ -16,12 +17,18 @@ is (scalar(Software::License::AGPL_3->meta_name()),
 # TEST
 is (scalar(Software::License::Artistic_2_0->meta_name()),
     'artistic2',
-    "AGPL meta name is OK."
+    "Artistic 2.0 meta name is OK."
 );
 
 # TEST
 is (scalar(Software::License::FreeBSD->meta_name()),
     'freebsd',
-    "AGPL meta name is OK."
+    "FreeBSD meta name is OK."
+);
+
+# TEST
+is (scalar(Software::License::QPL_1_0->meta_name()),
+    'qpl',
+    "QPL meta name is OK."
 );
 
