@@ -11,7 +11,11 @@ Software::License::Mozilla_1_0 - Mozilla Public License 1.0
 
 sub name { 'The Mozilla Public License 1.0' }
 sub url  { 'http://www.mozilla.org/MPL/MPL-1.0.txt' }
+<<<<<<< HEAD:lib/Software/License/Mozilla_1_0.pm
 sub meta_name { 'mozilla' }
+=======
+sub meta_yml_name { 'mozilla' }
+>>>>>>> fc0eb56c378b205dd5e12b19b3a4249f0a892b31:lib/Software/License/Mozilla_1_0.pm
 
 1;
 __DATA__
