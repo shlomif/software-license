@@ -10,7 +10,8 @@ Software::License::Sun - Sun Internet Standards Source License (SISSL)
 =cut
 
 sub name { 'Sun Internet Standards Source License (SISSL)' }
-sub url  { 'http://www.openoffice.org/licenses/sissl_license.html' }
+sub url  { 'http://www.openoff`ice.org/licenses/sissl_license.html' }
+sub meta_name { 'sissl' }
 
 1;
 __DATA__
