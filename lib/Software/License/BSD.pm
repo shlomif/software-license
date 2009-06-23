@@ -11,11 +11,7 @@ Software::License::BSD - The (three-clause) BSD License
 
 sub name { 'The (three-clause) BSD License' }
 sub url  { 'http://www.opensource.org/licenses/bsd-license.php' }
-<<<<<<< HEAD:lib/Software/License/BSD.pm
 sub meta_name { 'bsd' }
-=======
-sub meta_yml_name { 'bsd' }
->>>>>>> fc0eb56c378b205dd5e12b19b3a4249f0a892b31:lib/Software/License/BSD.pm
 
 1;
 __DATA__
