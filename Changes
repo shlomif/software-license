@@ -1,5 +1,7 @@
 Revision history for Software-License
 
+          add meta_name methods where they were missing (Shlomi Fish)
+
 0.012     2009-05-22
           added guess_license_from_meta which is both JSON and YAML compatible
             (BRICAS)
